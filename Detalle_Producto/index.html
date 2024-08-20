@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos.css">
+    <title>Detalles Producto EBAY</title>
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <div class="cabecera">
+            <h1>EBAY</h1>
+            <nav>
+                <a href="#">Categorías</a>
+                <a href="#">Mi Carrito</a>
+                <a href="#">Mi Cuenta</a>
+            </nav>
+       </div>
+    
+       <div class="producto">
+            <div class="producto_imagenes">
+                <img src="./img/thumbs/negro.jpg" alt="" class="producto__thumb-img" />
+                <img src="./img/thumbs/1.jpg" alt="" class="producto__thumb-img" />
+                <img src="./img/thumbs/2.jpg" alt="" class="producto__thumb-img" />
+                <img src="./img/thumbs/3.jpg" alt="" class="producto__thumb-img" />
+                <img src="./img/thumbs/4.jpg" alt="" class="producto__thumb-img" />
+            </div>
+    
+            <div class="producto_imagen_principal">
+                <img src="./img/tennis/negro.jpg" alt="" class="producto_imagen" />
+            </div>
+
+            <div class="producto_informacion">
+
+                <h1 class="producto_nombre">Tennis Converse Standard.</h1>
+
+                <p class="producto_descripcion">
+                    EBAY te ofrece la mejor calidad en zapatos
+                </p>
+
+                <div class="producto_contenedor">
+                    <p class="producto_titulo">Precio</p>
+                    <p class="producto_precio">$500.00</p>
+                </div>
+
+                <div class="producto_contenedor" id="propiedad-color">
+
+                    <p class="producto_titulo">Color</p>
+
+                    <div class="producto_contenedor-radios">
+                        <label for="negro">
+                            <input type="radio" class="producto_radio-input" name="color" id="negro" value="negro" checked/>
+                            <p class="producto_radio-texto">Negro</p>
+                        </label>
+
+                        <label for="rojo">
+                            <input type="radio" class="producto_radio-input" name="color" id="rojo" value="negro" checked/>
+                            <p class="producto_radio-texto">Rojo</p>
+                        </label>
+
+                        <label for="amarillo">
+                            <input type="radio" class="producto_radio-input" name="color" id="amarillo" value="negro" checked/>
+                            <p class="producto_radio-texto">Amarillo</p>
+                        </label>
+
+                    </div>                    
+                </div>
+
+                <div class="producto_contenedor" id="propiedad-tamaño">
+
+                    <p class="producto_titulo">Tamaño</p>
+
+                    <div class="producto_contenedor-radios">
+                        <label for="1.5">
+                            <input type="radio" class="producto_radio-input" name="tamaño" id="1.5" value="1.5" checked>
+                            <p class="producto_radio-texto">1.5</p>
+                        </label>
+
+                        <label for="2">
+                            <input type="radio" class="producto_radio-input" name="tamaño" id="2" value="2" />
+                            <p class="producto_radio-texto">2</p>
+                        </label>
+
+                        <label for="2.5">
+                            <input type="radio" class="producto_radio-input" name="tamaño" id="2,5" value="2,5" />
+                            <p class="producto_radio-texto">2.5</p>
+                        </label>
+
+                        <label for="3">
+                            <input type="radio" class="producto_radio-input" name="tamaño" id="3" value="3" />
+                            <p class="producto_radio-texto">3</p>
+                        </label>
+
+                        <label for="3.5">
+                            <input type="radio" class="producto_radio-input" name="tamaño" id="3.5" value="3,5" />
+                            <p class="producto_radio-texto">3.5</p>
+                        </label>
+
+                        <label for="4">
+                            <input type="radio" class="producto_radio-input" name="tamaño" id="4" value="4" />
+                            <p class="producto_radio-texto">4</p>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="producto_contenedor">
+                    <p class="producto_titulo">Cantidad</p>
+
+                    <button class="producto_btn-cantidad" id="disminuir-cantidad"><</button>
+
+                    <input type="text"id="cantidad" value="1" class="producto_cantidad">
+
+                    <button class="producto_btn-cantidad" id="incrementar-cantidad">></button>
+                </div>
+
+                <button type="submit" class="producto_btn-carrito" id="agregar-al-carrito">
+                    Agregar al carrito
+                </button>
+
+            </div>
+        </div>
+    </div>
+
+   
+        
+</body>
+
+</html>
