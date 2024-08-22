@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión - eBay</title>
+    <link rel="stylesheet" href="styles-login.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo">
+            <img src="/src/images/logo.png" alt="eBay Logo">
+        </div>
+        <h2>Hola</h2>
+        <p>Inicia sesión en eBay o <a href="#">crea una cuenta</a></p>
+        <form>
+            <input type="text" placeholder="Correo electrónico o nombre de usuario" required>
+            <button type="submit">Continuar</button>
+            <div class="separator">o</div>
+            <button class="social-login facebook">Continuar con Facebook</button>
+            <button class="social-login google">Continuar con Google</button>
+            <button class="social-login apple">Continuar con Apple</button>
+            <div class="stay-logged-in">
+                <input type="checkbox" id="stayLoggedIn">
+                <label for="stayLoggedIn">No cerrar sesión</label>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
